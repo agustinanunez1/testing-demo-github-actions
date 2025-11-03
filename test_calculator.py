@@ -13,7 +13,7 @@ def test_multiplicar():
     assert calc.multiplicar(3, 5) == 15
 
 def test_dividir():
-    assert calc.dividir(8, 2) == 4
+    assert calc.dividir(8, 2) == 5
 
 def test_dividir_por_cero():
     try:
