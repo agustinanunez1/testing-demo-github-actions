@@ -2,6 +2,7 @@ from fastapi import FastAPI, HTTPException
 from calculator import Calculator
 import os
 
+#API
 app = FastAPI(title="Calculadora")
 calc = Calculator()
 
